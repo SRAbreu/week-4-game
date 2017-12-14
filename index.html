@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script   src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<h1 id ="name">Crystal Collector!!</h1>
+	</header>
+	<div class="instructions">
+		<p>At the start of each game you're given a random number</p>
+		<p> You must click on one of the four power crystals to match the random number</p>
+		<p>Each power crystal has a hidden number</p>
+		<p>GOOD LUCK!!!</p>
+	</div>
+	<div class="random">
+		<div class="number"></div>
+
+	<div class="outcome">
+		Wins:<div id='wins'></div>
+		Losses:<div id='losses'></div>
+	</div>
+
+	<div class='power'>
+		<img src="assets/images/creedite.jpg" class='click' id='orange'>
+		<img src="assets/images/green.jpg" class='click' id='green'>
+		<img src="assets/images/icecrystalcluster.jpeg" class='click' id='ice'>
+		<img src="assets/images/perugypsum.jpg" class='click' id='yellow'>
+	</div>
+
+	<div class='score'>
+		<h3>Crystal Power Level:</h3>
+	</div>
+
+	<div class='math'></div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
